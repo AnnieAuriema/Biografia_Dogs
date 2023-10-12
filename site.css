@@ -1,0 +1,129 @@
+body {
+	font-family: "Crimson Text", "Times New Roman", serif;
+	background-color: #F2FFFC;
+	font-size: 120%;
+	line-height: 1.5;
+}
+h1, h2 {
+	font-family: "Open Sans Condensed", "Arial", sans-serif;
+}
+.titulo-principal {
+	text-align: center;
+	background-color: #1a07a8;
+	color: #FFF;
+	padding: 25px;
+	border-bottom: 10px solid black;
+	font-size: 60px;
+    text-transform: uppercase;
+}
+p {
+	text-align: justify;
+	margin: 20px 0;
+}
+blockquote {
+	background-color: #D9E5E3;
+	border: 10px solid #C2CCCA;
+	width: 250px;
+	box-sizing: border-box;
+	margin: 20px 40px;
+	padding: 0 10px 0 10px;
+}
+cite {
+    font-style: italic;
+    float: right;
+}
+.container {
+	width: 720px;
+	margin: auto;
+	padding: 30px 0;
+}
+
+.navegacao-site {
+	text-align: center;
+	background-color: #3C1D3D;
+	color: #F2FFFC;
+}
+.navegacao-site a {
+	color: inherit;
+	font-family: "Open Sans Condensed", sans-serif;
+}
+strong {
+	font-weight: bold;
+}
+.pai{
+	float: right;
+}
+.mae{
+	float: left;
+}
+.img_1{
+    width: 200px;
+    position: absolute;
+    top: 30px;
+    left: 20px;
+	border: 10px solid #000f0c;
+}
+.img_2{
+    width: 200px;
+	float: right;
+	position: relative;
+    bottom:right 20px;
+	right: 20px;
+	top: 70px;
+    transform: translateY(-50%);
+	border: 10px solid #000f0c;
+	
+}
+.img_3{
+    width: 200px;
+	float: left;
+	position: relative;
+    bottom:left 20px;
+	left: 20px;
+	top: 70px;
+    transform: translateY(-50%);
+	border: 10px solid #000f0c;
+	
+}
+.img_4{
+    width: 200px;
+	float: left;
+	position: absolute;
+    top: 120%;
+    left: 20px;
+	border: 10px solid #000f0c;
+}
+.img_5{
+    width: 200px;
+	float: right;
+    position: absolute;
+    top: 110%;
+    right: 20px;
+	border: 10px solid #000f0c;
+}
+.img_6{
+	width: 200px;
+    position: absolute;
+    top: 40px;
+    right: 20px;
+	border: 10px solid #000f0c;
+}
+.img_7{
+	width: 300px;
+	position: absolute;
+	top: 283%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	font-size: 18px;
+	border: 10px solid #000f0c;
+}
+.rodape-pagina {
+	background-color: #000;
+	color: #F2FFFC;
+	clear: both;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+    text-align: center;
+}
